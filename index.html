@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0a0f">
+<meta name="description" content="The personal portfolio and journey of Misba Uddin Gian — creativity, digital skills, hospitality, storytelling and entrepreneurship.">
+<title>Misba Uddin Gian — Personal Portfolio</title>
+<style>
+:root{--bg:#0a0a0f;--panel:#12131b;--text:#f4f3fa;--muted:#aaa9bb;--line:rgba(255,255,255,.12);--accent:#a78bfa;--accent2:#63e6d4;--max:1080px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(117,78,255,.17),transparent 34%),radial-gradient(ellipse at 0% 40%,rgba(64,211,194,.08),transparent 30%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid var(--line);gap:16px}
+.brand{font-weight:800;letter-spacing:.02em}.brand span{color:var(--accent)}
+.navlinks{display:flex;gap:18px;flex-wrap:wrap;font-size:.88rem;color:var(--muted)}
+.navlinks a:hover,.textlink:hover{color:var(--accent2)}
+.hero{min-height:78vh;display:grid;align-content:center;padding:78px 0 64px;position:relative}
+.kicker{color:var(--accent2);font-size:.78rem;font-weight:750;letter-spacing:.17em;text-transform:uppercase}
+h1{font-size:clamp(2.8rem,10vw,6.5rem);line-height:.99;letter-spacing:-.065em;margin:18px 0 22px;max-width:900px}
+.gradient{background:linear-gradient(100deg,#fff 10%,#b8a2ff 48%,#63e6d4 90%);color:transparent;background-clip:text;-webkit-background-clip:text}
+.lead{max-width:660px;color:var(--muted);font-size:clamp(1.03rem,2.5vw,1.25rem)}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;justify-content:center;align-items:center;padding:12px 18px;border:1px solid var(--line);border-radius:999px;font-weight:700;font-size:.92rem;transition:transform .2s,border-color .2s}
+.btn.primary{background:var(--text);color:#11111a;border-color:var(--text)}.btn:hover{transform:translateY(-2px);border-color:var(--accent)}
+.hero-note{margin-top:50px;color:#77778c;font-size:.85rem}
+section{padding:70px 0;border-top:1px solid var(--line);scroll-margin-top:20px}
+.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:26px}
+h2{font-size:clamp(1.8rem,5vw,3rem);line-height:1.1;letter-spacing:-.04em;margin:8px 0}
+.sub{color:var(--muted);max-width:600px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));border:1px solid var(--line);border-radius:20px;padding:23px;min-height:190px;transition:transform .22s,border-color .22s}
+.card:hover{transform:translateY(-4px);border-color:rgba(167,139,250,.55)}
+.num{color:var(--accent2);font-size:.8rem;font-weight:800;letter-spacing:.1em}
+.card h3{margin:12px 0 6px;font-size:1.2rem}.card p{margin:0;color:var(--muted);font-size:.95rem}
+.placeholder{border:1px dashed rgba(167,139,250,.45);background:rgba(167,139,250,.06);border-radius:16px;padding:22px;color:var(--muted)}
+.video-box{aspect-ratio:16/9;display:grid;place-items:center;text-align:center;border:1px dashed rgba(99,230,212,.4);border-radius:18px;background:linear-gradient(135deg,rgba(167,139,250,.12),rgba(99,230,212,.06));padding:20px}
+.play{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--line);font-size:1.2rem;margin:0 auto 12px;color:var(--accent2)}
+.split{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:start}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.pill{border:1px solid var(--line);border-radius:999px;padding:6px 11px;font-size:.82rem;color:#d5d2e6}
+.timeline{display:grid;gap:12px}.timeline .card{min-height:0}
+.contact{background:linear-gradient(120deg,rgba(167,139,250,.12),rgba(99,230,212,.07));border:1px solid var(--line);border-radius:24px;padding:clamp(24px,6vw,48px)}
+footer{padding:26px 0 36px;color:#85849a;font-size:.85rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.reveal{animation:rise .8s both}.delay{animation-delay:.14s}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@media(min-width:760px){.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:620px){.navlinks{gap:10px;font-size:.78rem}.navlinks a:nth-child(2),.navlinks a:nth-child(4){display:none}.hero{min-height:70vh;padding:60px 0 45px}.grid,.split{grid-template-columns:1fr}section{padding:54px 0}.card{padding:20px}.sectionhead{display:block}.sectionhead .sub{margin-top:10px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main navigation">
+  <a class="brand" href="#home">MISBA<span>.</span></a>
+  <div class="navlinks">
+    <a href="#about">About</a><a href="#work">Work</a><a href="#videos">Videos</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+<main>
+<header class="hero" id="home">
+  <div class="kicker reveal">Personal Portfolio · Always Learning</div>
+  <h1 class="reveal delay">Ideas into action.<br><span class="gradient">A journey of my own.</span></h1>
+  <p class="lead reveal delay">I'm Misba Uddin Gian — a creative learner, aspiring entrepreneur, and personal brand builder. This is where I share my work, stories, skills, and the progress I'm making along the way.</p>
+  <div class="actions reveal delay"><a class="btn primary" href="#work">Explore my work ↗</a><a class="btn" href="#about">Get to know me</a></div>
+  <p class="hero-note">CREATIVITY · HOSPITALITY · DIGITAL SKILLS · STORYTELLING</p>
+</header>
+
+<section id="about">
+  <div class="split">
+    <div><div class="kicker">01 / About me</div><h2>Curious by nature.<br>Building with purpose.</h2></div>
+    <div><p class="sub">My journey brings together creativity, digital skills, hospitality, storytelling, and a passion for continuous learning. I believe in learning by doing, sharing meaningful experiences, and turning ideas into real opportunities.</p><p class="sub" style="margin-top:14px">This website will grow with me — one project, one lesson, and one milestone at a time.</p>
+    <div class="pills"><span class="pill">Graphic Design</span><span class="pill">Hospitality</span><span class="pill">Digital Skills</span><span class="pill">Content Creation</span><span class="pill">Entrepreneurship</span></div></div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="sectionhead"><div><div class="kicker">02 / Selected work</div><h2>Things I've worked on.</h2></div><p class="sub">Replace these starter cards with real projects, images, and links.</p></div>
+  <div class="grid three">
+    <article class="card"><div class="num">PROJECT 01</div><h3>Graphic Design</h3><p>Logos, flyers, social media designs, and visual identity projects.</p></article>
+    <article class="card"><div class="num">PROJECT 02</div><h3>Hospitality & Café</h3><p>My learning and experience in beverage preparation, guest service, and restaurant operations.</p></article>
+    <article class="card"><div class="num">PROJECT 03</div><h3>Digital Experiments</h3><p>Useful tools, AI-assisted ideas, and practical digital projects I'm exploring.</p></article>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="sectionhead"><div><div class="kicker">03 / Videos & stories</div><h2>My voice. My journey.</h2></div></div>
+  <div class="split">
+    <div class="video-box"><div><div class="play">▶</div><strong>Your introduction video goes here</strong><p class="sub">Add a YouTube video link when ready.</p></div></div>
+    <div><h3>Stories worth sharing</h3><p class="sub">From lessons at work to personal growth and future ambitions, this section is for honest stories that may help or inspire someone else.</p><div class="pills"><span class="pill">Lessons learned</span><span class="pill">Behind the scenes</span><span class="pill">Personal growth</span></div></div>
+  </div>
+</section>
+
+<section id="achievements">
+  <div class="sectionhead"><div><div class="kicker">04 / Milestones</div><h2>Progress, not perfection.</h2></div><p class="sub">Only add genuine achievements, certificates, and dates.</p></div>
+  <div class="grid">
+    <article class="card"><div class="num">MILESTONE 01</div><h3>Training & Learning</h3><p>Add your completed barista or restaurant-management training, with the provider and date.</p></article>
+    <article class="card"><div class="num">MILESTONE 02</div><h3>Projects & Experience</h3><p>Show selected client work, completed projects, and professional experience.</p></article>
+  </div>
+</section>
+
+<section id="journey">
+  <div class="split">
+    <div><div class="kicker">05 / The journey ahead</div><h2>Learning today.<br>Building tomorrow.</h2><p class="sub">My long-term goal is to keep developing my skills, create useful content, build a trusted personal brand, and work toward meaningful business ideas.</p></div>
+    <div class="timeline">
+      <article class="card"><div class="num">NOW</div><h3>Build skills</h3><p>Improve communication, creative work, hospitality knowledge, and digital skills.</p></article>
+      <article class="card"><div class="num">NEXT</div><h3>Share consistently</h3><p>Publish useful videos, document lessons, and build a community around learning.</p></article>
+      <article class="card"><div class="num">FUTURE</div><h3>Create opportunities</h3><p>Turn experience and ideas into sustainable projects and business ventures.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact"><div class="kicker">06 / Let's connect</div><h2>Have an idea or opportunity?</h2><p class="sub">I'd be happy to connect about creative work, collaboration, learning, and future opportunities.</p>
+    <div class="actions"><a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Email me ↗</a><a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a class="btn" href="https://www.youtube.com/" target="_blank" rel="noreferrer">YouTube</a></div>
+    <p class="sub" style="font-size:.82rem;margin-top:18px">Before publishing: replace the sample email and social links with your real public contact links.</p>
+  </div>
+</section>
+</main>
+<footer><span>© <span id="year">2026</span> Misba Uddin Gian</span><span>Made with curiosity & a little courage.</span></footer>
+</div>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
